@@ -1,0 +1,208 @@
+/*
+    Titles:
+    [images & background images]
+    1- background-position: x y; 
+
+    [gradients]: 
+    1- background: linear-gradient(360deg, blue, green, rgba(0,0,0,0.3));
+
+    [Filters]
+
+    [vertical-align]: The vertical-align CSS property sets vertical alignment of an inline, inline-block or table-cell box.
+
+    [viewport]:
+    1- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+*/
+/* Colors */
+/* Header */
+/* Header */
+/* shadow */
+/* shadow */
+/* Colors */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #353535;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+.container {
+  width: 280px;
+  height: 500px;
+  margin-left: 60px;
+  margin-top: 60px;
+  -webkit-box-shadow: -15px 25px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: -15px 25px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+}
+
+/* start header */
+.header {
+  height: 252px;
+  background: linear-gradient(135deg, #fa782e 8%, #c82930 83%);
+  border-radius: 25px 25px 0 0;
+  position: relative;
+}
+
+.nike_logo {
+  width: 55px;
+  height: 20px;
+  margin: 10px 0 0 10px;
+  margin-bottom: 20px;
+}
+
+.header_text {
+  color: white;
+  padding: 0 20px;
+}
+
+.header_text .header_head {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.header_text .header_paragraph {
+  font-size: 11px;
+  margin-bottom: 17px;
+}
+
+.bigText {
+  font-size: 110px;
+  opacity: 0.1;
+}
+
+.red_shoe {
+  position: absolute;
+  top: 0;
+  left: 70px;
+}
+
+/* end header */
+/* start deails */
+.main {
+  background-color: white;
+  height: 255px;
+  padding: 20px;
+  border-radius: 0  0 20px 20px;
+}
+
+.details {
+  color: black;
+}
+
+.details_header {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.sport {
+  font-weight: 900;
+}
+
+.green-box {
+  display: inline-block;
+  background-color: #11e95b;
+  color: white;
+  font-size: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.details_paragraph {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+/* size */
+.size_head {
+  font-weight: 200;
+}
+
+.size_head {
+  margin-bottom: 10px;
+}
+
+.size_list {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.size_list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a.active {
+  background-color: #fa782e;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+/* end size */
+/* st colors */
+.colours {
+  position: relative;
+}
+
+.colours h4 {
+  font-weight: 200;
+}
+
+.colours .circle {
+  display: inline-block;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.colours .colours_red {
+  background-color: #fa782e;
+}
+
+.colours .colours_green {
+  background-color: #11e95b;
+}
+
+.colours .colours_yellow {
+  background-color: #ffd414;
+}
+
+.colours_price {
+  background-color: #11e95b;
+  position: absolute;
+  top: 30px;
+  left: 140px;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3);
+          box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3);
+  padding: 7px 20px;
+  font-weight: 100;
+}
+
+.colours_price span {
+  margin-left: 5px;
+  font-weight: 900;
+}
+
+/* end colors */
+/* end deails */
+/*# sourceMappingURL=HomePage.css.map */

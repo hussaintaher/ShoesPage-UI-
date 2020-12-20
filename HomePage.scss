@@ -1,0 +1,25 @@
+/*
+    Titles:
+    [images & background images]
+    1- background-position: x y; 
+
+    [gradients]: 
+    1- background: linear-gradient(360deg, blue, green, rgba(0,0,0,0.3));
+
+    [Filters]
+
+    [vertical-align]: The vertical-align CSS property sets vertical alignment of an inline, inline-block or table-cell box.
+
+    [viewport]:
+    1- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+*/
+
+
+@import "scss/helpers/variables";
+@import "scss/helpers/functions";
+@import "scss/helpers/reset";
+@import "scss/helpers/mixins";
+
+
+@import "scss/layouts/header";
+@import "scss/layouts/main";
